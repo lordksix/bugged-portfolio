@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style/base_style.css">
+  <script src="./scripts/projectsModal.js" defer></script>
+  <script src="./scripts/ScrollEffects.js" defer></script>
+  <script src="./scripts/menuModal.js" defer></script>
+  <script src="./scripts/formValidation.js" defer></script>
+  <title>Portfolio Template</title>
+</head>
+<body> 
+  <header id="header">
+    <nav class="nav-header">
+      <div class="logo modal-bg">
+        <a href="#intro">My Logo</a>
+      </div>
+      <ul class="nav-menu">
+        <input type="checkbox" id="menu_toggle" />
+        <label for="menu_toggle" class="menu_hamburger" aria-label="Menu Opener"></label>
+        <div class="menu">
+          <li id="close_menu">X</li>
+          <li><a href="#works">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <section class="intro info modal-bg" id="intro">
+    <h1 class="section-title">I'm Alexandra. <br> Glad to see you!</h2>
+    <p class="description">I'm a software developer! I can help you build a product, 
+      feature or website Look through some of my work and experience! If you like what 
+      you see and have a project you need coded, don't hesitate to contact me.
+    </p>
+    <p class="makeconection">LET'S CONNECT</p>
+    <div class="socialmedia-btn-container">
+      <ul class="socialmedia-btn-row">
+        <li class="social-btn">
+          <a href="https://twitter.com/"><img src="./images/twicon.svg" alt="Twitter Account" class="social-btn" id="btn-tw"></a>
+        </li>
+        <li class="social-btn">
+          <a href="https://www.linkedin.com/"><img src="./images/Linkedin-icon.svg" alt="LinkedIn Account" class="social-btn" id="btn-in"></a>
+        </li>
+        <li class="social-btn">
+          <a href="#"><img src="./images/micon.svg" alt="Medium Account" class="social-btn" id="btn-m"></a>
+        </li>
+        <li class="social-btn">
+          <a href="https://github.com/"><img src="./images/githubicon.svg" alt="GitHub Account" class="social-btn" id="btn-gh"></a>
+        </li>
+        <li class="social-btn">
+          <a href="#"><img src="./images/peaceicon.svg" alt="Wellfound Account" class="social-btn" id="btn-pc"></a>
+        </li>
+     </ul>
+    </div>
+  </section>
+  <section class="about-contact modal-bg">
+    <section class="about info scroll" id="about">
+      <div class="contact">
+        <h2 class="section-title">About Myself</h2>
+        <p class="description">I'm a software developer! I can help you build a product, 
+          feature or website Look through some of my work and experience! If you like what 
+          you see and have a project you need coded, don't hesitate to contact me.
+        </p>
+        <p class="makeconection">LET'S CONNECT</p>
+        <div class="socialmedia-btn-container">
+          <ul class="socialmedia-btn-row">
+            <li class="social-btn">
+              <a href="https://twitter.com/"><img src="./images/twicon.svg" alt="Twitter Account" class="social-btn" id="btn-tw"></a>
+            </li>
+            <li class="social-btn">
+              <a href="https://www.linkedin.com/"><img src="./images/Linkedin-icon.svg" alt="LinkedIn Account" class="social-btn" id="btn-in"></a>
+            </li>
+            <li class="social-btn">
+              <a href="#"><img src="./images/micon.svg" alt="Medium Account" class="social-btn" id="btn-m"></a>
+            </li>
+            <li class="social-btn">
+              <a href="https://github.com/"><img src="./images/githubicon.svg" alt="GitHub Account" class="social-btn" id="btn-gh"></a>
+            </li>
+            <li class="social-btn">
+              <a href="#"><img src="./images/peaceicon.svg" alt="Wellfound Account" class="social-btn" id="btn-pc"></a>
+            </li>
+        </ul>
+        </div>
+        <button type="button" class="work-btn">Get my resume</button>
+      </div>
+      <ul class="skills">
+        <li>
+					<input type="checkbox" id="languages" class="menu-item-checkbox"/>
+          <label for="languages" class="skill"><span>Languages</span><img src="./images/arrow.svg" alt="Click to open languages" class="arrow"></label>
+          <ul class="sub-skills">
+            <li class="sub-skill"><img src="images/js-icon.svg" alt="JavaScript Icon" class="sub-skill-img"></span><span>JavaScript</span></li>
+            <li class="sub-skill"><img src="images/html5-icon.svg" alt="HTML Icon" class="sub-skill-img"><span>HTML</span></li>
+            <li class="sub-skill"><img src="images/css-icon.svg" alt="CSS3 Icon" class="sub-skill-img"><span>CSS</span></li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="frameworks" class="menu-item-checkbox"/>
+          <label for="frameworks" class="skill">
+            <span>Frameworks</span>
+            <img src="./images/arrow.svg" alt="Click to open frameworks" class="arrow">
+          </label>
+          <ul class="sub-skills">
+            <li class="sub-skill"><img src="images/js-icon.svg" alt="JavaScript Icon" class="sub-skill-img"></span><span>JavaScript</span></li>
+            <li class="sub-skill"><img src="images/html5-icon.svg" alt="HTML Icon" class="sub-skill-img"><span>HTML</span></li>
+            <li class="sub-skill"><img src="images/css-icon.svg" alt="CSS3 Icon" class="sub-skill-img"><span>CSS</span></li>
+          </ul>
+        </li>
+        <li>
+					<input type="checkbox" id="skills" class="menu-item-checkbox" />
+          <label for="skills" class="skill"><span>Skills</span><img src="./images/arrow.svg" alt="Click to open skills" class="arrow"></label>
+          <ul class="sub-skills">
+            <li class="sub-skill"><img src="images/js-icon.svg" alt="JavaScript Icon" class="sub-skill-img"></span><span>JavaScript</span></li>
+            <li class="sub-skill"><img src="images/html5-icon.svg" alt="HTML Icon" class="sub-skill-img"><span>HTML</span></li>
+            <li class="sub-skill"><img src="images/css-icon.svg" alt="CSS3 Icon" class="sub-skill-img"><span>CSS</span></li>
+          </ul>
+        </li>
+      </ul> 
+    </section>
+    <section class="info contact-info scroll" id="contact">
+      <h2 class="section-title">Contact me</h2>
+      <p class="description">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+        I'd love to help with it!</p>
+      <form action="https://formspree.io/f/xgebldzy" method="post" id="contact-form">
+        <ul class="contact-form-group">
+          <li class="form-section">
+            <label for="name">Name<span aria-label="Required">*</span></label>
+            <input type="text" id="name" maxlength="30" name="name" placeholder="Name" required>
+            <small></small>
+          </li>
+          <li class="form-section">
+            <label for="email">E-mail<span aria-label="Required">*</span></label>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <small></small>
+          </li>
+          <li class="form-section">
+            <label for="contact-descrip">Message<span aria-label="Required">*</span></label>
+            <textarea name="message" id="contact-descrip" maxlength="500" placeholder=" Write your message here..." required></textarea>
+            <small></small>
+            <p id="validation"></p>
+          </li>
+          <li class="form-section">
+            <button class="work-btn" type="submit">Get in touch</button>
+            <button class="work-btn" type="reset">Reset</button>
+          </li>
+        </ul>
+      </form>
+    </section>
+  </section>
+</body>
+</html>
