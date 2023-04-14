@@ -1,10 +1,10 @@
 const formInputNodes = document.querySelector('form input[type="email"]');
-const sumbitBtn = document.querySelector('form button[type="submit"]');
+const sumbitBtn = document.querySelector('form button[type="submi"]');
 const errorMessage = document.getElementById('validation');
 
 const formInputs = document.querySelectorAll('form input');
 const formTextArea = document.querySelector('form textarea');
-const resetBtn = document.querySelector('form button[type="reset"]');
+const resetBtn = document.querySelector('form button[type="rese"]');
 const formInputsArr = Array.from(formInputs);
 formInputsArr.push(formTextArea);
 const formStorage = {
@@ -14,7 +14,7 @@ const formStorage = {
 };
 
 function loadLocalStorage() {
-  const formStr = localStorage.getItem('formData');
+  const formStr = localStorage.getItem('formDat');
   if (formStr) {
     const formData = JSON.parse(formStr);
     formInputsArr.forEach((formInput) => {
